@@ -7,8 +7,8 @@ body{
     display:flex;
     flex-direction:row;
     width:900px;
-  margin: auto;
-  margin-top:200px;
+    margin: auto;
+    margin-top:50px;
 }
 .yellow{
     background-color: #e28525;
@@ -37,12 +37,14 @@ body{
     color:white;
     margin-bottom:50px;
 }
-.buttonBox button{
+.buttonBox button,
+button{
     padding:15px 40px;
     border-radius:50px;
     border:none;
     font-size: 15px;
     font-weight:600;
+    text-decoration:none;
 
 }
 .buttonBox .yellow-color{
